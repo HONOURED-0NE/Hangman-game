@@ -2,6 +2,7 @@
 import random
 from words import words
 import string
+print('Hangman')
 
 def get_random_word():
     word = random.choice(words)
